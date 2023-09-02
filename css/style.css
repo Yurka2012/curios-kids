@@ -1,3 +1,23 @@
+.logo {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.search {
+  width: 440px;
+  margin-left: 200px;
+}
+
 *:not(title):not(script) {
   margin: 0;
   padding: 0;
@@ -13,17 +33,11 @@ a {
   text-decoration: none;
 }
 
-.logo {
-  color: #000;
-  font-family: Gilroy-Bold;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.header-list {
-  display: flex;
-  width: 100%;
-  justify-content: center;
+.join-teacher {
+  font-size: 30px;
+  text-transform: none;
+  text-transform: none;
+  align-items: center;
+  margin-left: 240px;
+  margin-right: 20px;
 }
