@@ -1,0 +1,13 @@
+*:not(title):not(script){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline-flex;
+}
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

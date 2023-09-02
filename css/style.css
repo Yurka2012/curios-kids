@@ -1,0 +1,29 @@
+*:not(title):not(script) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: inline-flex;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
